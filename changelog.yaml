@@ -2805,3 +2805,50 @@
     changed:
     - Fixed the test_policy test
   date: 2024-02-14 17:40:21
+- bump: patch
+  changes:
+    changed:
+    - Core unpinned, UK, US and Canada updated.
+    fixed:
+    - Negative income deciles removed from outputs.
+  date: 2024-02-18 18:37:01
+- bump: patch
+  changes:
+    changed:
+    - Update PolicyEngine US to 0.669.0
+  date: 2024-02-20 01:42:12
+- bump: patch
+  changes:
+    changed:
+    - Update PolicyEngine UK to 0.69.0
+  date: 2024-02-20 12:20:22
+- bump: patch
+  changes:
+    changed:
+    - Update PolicyEngine US to 0.675.0
+  date: 2024-02-21 03:07:57
+- bump: patch
+  changes:
+    changed:
+    - Update PolicyEngine US to 0.676.0
+  date: 2024-02-21 12:45:19
+- bump: patch
+  changes:
+    changed:
+    - Update PolicyEngine US to 0.679.1
+  date: 2024-02-24 00:21:41
+- bump: patch
+  changes:
+    changed:
+    - Update PolicyEngine US to 0.680.0
+  date: 2024-02-24 05:04:58
+- bump: patch
+  changes:
+    changed:
+    - Update PolicyEngine US to 0.682.0
+  date: 2024-02-26 21:18:51
+- bump: patch
+  changes:
+    changed:
+    - Update PolicyEngine US to 0.683.1
+  date: 2024-02-27 23:23:49

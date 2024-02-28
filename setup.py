@@ -18,12 +18,17 @@ setup(
         "gunicorn",
         "markupsafe==2.0.1",
         "openai",
-        "PolicyEngine-Core>2.11,<2.14",
-        "policyengine_canada==0.87.1",
+        "PolicyEngine-Core>2.11",
+        "policyengine_canada==0.88.1",
         "policyengine-ng==0.5.1",
         "policyengine-il==0.1.0",
+<<<<<<< HEAD
         "policyengine_uk==0.67.0",
         "policyengine_us==0.661.2",
+=======
+        "policyengine_uk==0.69.0",
+        "policyengine_us==0.683.1",
+>>>>>>> 5277709e8e0a9956a74d92ca6b07832572b7592a
         "pymysql",
         "redis",
         "rq",
