@@ -5,6 +5,64 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), 
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.28.3] - 2025-09-29 15:14:52
+
+### Changed
+
+- Update PolicyEngine US to 1.407.0
+
+## [3.28.2] - 2025-09-25 21:19:43
+
+### Fixed
+
+- Removed HF API calls.
+
+## [3.28.1] - 2025-09-19 12:56:22
+
+## [3.28.0] - 2025-09-13 19:43:47
+
+### Added
+
+- Simulation endpoints for creating and retrieving simulation metadata
+- Report output endpoints for managing report data
+- SimulationService and ReportOutputService classes
+- {'Database schema': 'simulation table for policy + geography metadata'}
+- {'Database schema': 'report_outputs table for storing report data'}
+
+## [3.27.14] - 2025-09-11 15:06:14
+
+### Added
+
+- API setup Logging
+
+### Changed
+
+- Reverted app.yaml settings to previous values
+
+## [3.27.13] - 2025-09-10 19:00:29
+
+### Changed
+
+- Increased check_interval_sec to be greater than timeout_sec in app.yaml
+
+## [3.27.12] - 2025-09-10 12:27:27
+
+### Changed
+
+- Increase timeouts for each GCP readiness check and for all checks collectively.
+
+## [3.27.11] - 2025-09-09 21:27:12
+
+### Changed
+
+- Update PolicyEngine US to 1.395.1
+
+## [3.27.10] - 2025-09-09 13:42:03
+
+### Changed
+
+- Formatted tracer analysis service file to fix linting issue in main
+
 ## [3.27.9] - 2025-08-18 21:25:42
 
 ### Fixed
@@ -6095,6 +6153,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
+[3.28.3]: https://github.com/PolicyEngine/policyengine-api/compare/3.28.2...3.28.3
+[3.28.2]: https://github.com/PolicyEngine/policyengine-api/compare/3.28.1...3.28.2
+[3.28.1]: https://github.com/PolicyEngine/policyengine-api/compare/3.28.0...3.28.1
+[3.28.0]: https://github.com/PolicyEngine/policyengine-api/compare/3.27.14...3.28.0
+[3.27.14]: https://github.com/PolicyEngine/policyengine-api/compare/3.27.13...3.27.14
+[3.27.13]: https://github.com/PolicyEngine/policyengine-api/compare/3.27.12...3.27.13
+[3.27.12]: https://github.com/PolicyEngine/policyengine-api/compare/3.27.11...3.27.12
+[3.27.11]: https://github.com/PolicyEngine/policyengine-api/compare/3.27.10...3.27.11
+[3.27.10]: https://github.com/PolicyEngine/policyengine-api/compare/3.27.9...3.27.10
 [3.27.9]: https://github.com/PolicyEngine/policyengine-api/compare/3.27.8...3.27.9
 [3.27.8]: https://github.com/PolicyEngine/policyengine-api/compare/3.27.7...3.27.8
 [3.27.7]: https://github.com/PolicyEngine/policyengine-api/compare/3.27.6...3.27.7

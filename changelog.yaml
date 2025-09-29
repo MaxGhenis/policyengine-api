@@ -5109,3 +5109,54 @@
     fixed:
     - UK economic impacts by setting version to latest.
   date: 2025-08-18 21:25:42
+- bump: patch
+  changes:
+    changed:
+    - Formatted tracer analysis service file to fix linting issue in main
+  date: 2025-09-09 13:42:03
+- bump: patch
+  changes:
+    changed:
+    - Update PolicyEngine US to 1.395.1
+  date: 2025-09-09 21:27:12
+- bump: patch
+  changes:
+    changed:
+    - Increase timeouts for each GCP readiness check and for all checks collectively.
+  date: 2025-09-10 12:27:27
+- bump: patch
+  changes:
+    changed:
+    - Increased check_interval_sec to be greater than timeout_sec in app.yaml
+  date: 2025-09-10 19:00:29
+- bump: patch
+  changes:
+    added:
+    - API setup Logging
+    changed:
+    - Reverted app.yaml settings to previous values
+  date: 2025-09-11 15:06:14
+- bump: minor
+  changes:
+    added:
+    - Simulation endpoints for creating and retrieving simulation metadata
+    - Report output endpoints for managing report data
+    - SimulationService and ReportOutputService classes
+    - Database schema: simulation table for policy + geography metadata
+    - Database schema: report_outputs table for storing report data
+  date: 2025-09-13 19:43:47
+- bump: patch
+  changes:
+    removed:
+    - updated_at and created_at columns in report_outputs table
+  date: 2025-09-19 12:56:22
+- bump: patch
+  changes:
+    fixed:
+    - Removed HF API calls.
+  date: 2025-09-25 21:19:43
+- bump: patch
+  changes:
+    changed:
+    - Update PolicyEngine US to 1.407.0
+  date: 2025-09-29 15:14:52
